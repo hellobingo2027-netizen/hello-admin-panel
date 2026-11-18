@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
-<title>Adwa Bingo — Admin Panel</title>
+<title>Hello Bingo — Admin Panel</title>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.5/socket.io.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.0/chart.umd.min.js"></script>
 <style>
@@ -250,7 +250,7 @@ body{font-family:'Syne',sans-serif;background:var(--bg);color:var(--text);min-he
   <div class="login-box">
     <div class="login-logo">
       <span class="l-icon">🎱</span>
-      <h1>ADWA BINGO</h1>
+      <h1>HELLO BINGO</h1>
       <p>ADMIN CONTROL CENTER</p>
     </div>
     <div class="form-group">
@@ -270,7 +270,7 @@ body{font-family:'Syne',sans-serif;background:var(--bg);color:var(--text);min-he
 <div id="app">
   <div class="top-bar">
     <div class="top-bar-left">
-      <span class="top-logo">🎱 ADWA BINGO</span>
+      <span class="top-logo">🎱 HELLO BINGO</span>
       <span class="admin-badge" id="role-badge">ADMIN</span>
     </div>
     <div class="top-bar-right">
@@ -744,7 +744,7 @@ body{font-family:'Syne',sans-serif;background:var(--bg);color:var(--text);min-he
 <div class="toast-container" id="toasts"></div>
 
 <script>
-var API_BASE = 'https://adwa-last-test-gac4.onrender.com';
+var API_BASE = 'https://hello-last-test-gac4.onrender.com';
 var adminToken = null;
 var currentUser=null, socket=null;
 var gameState10={called:new Set(),current:null,running:false,gameId:null,players:0,winners:[]};
